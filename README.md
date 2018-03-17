@@ -29,6 +29,7 @@ pip install earthengine-api
 python
 ```
 **4: GEE Authentication**
+
 Test Authentication
 ```python 
 import ee
