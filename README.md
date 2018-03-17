@@ -2,12 +2,15 @@
 1: Download and install ANACONDA
 https://www.anaconda.com/download/#windows
 *For windows users do not add to path
+
 2: start Anaconda prompt in admin privilege 
 > conda config --add channels conda-forge (THIS IS A PACKAGE MANAGEMENT)
+
 3: Create GEE environment
-> conda create -n gee python=2.7
-> conda activate gee
-> conda install jupyter
+```conda create -n gee python=2.7
+conda activate gee
+conda install jupyter
+```
 From GOOGLE EE PYTHON API SITE: 
 https://developers.google.com/earth-engine/python_install_manual
 > pip install google-api-python-client
