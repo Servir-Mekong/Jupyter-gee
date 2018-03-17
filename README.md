@@ -28,10 +28,11 @@ conda install jupyter
 pip install google-api-python-client
 python -c "from oauth2client import crypt"
 pip install earthengine-api
-python
 ```
 **5: GEE Authentication**
-
+'''
+python
+```
 Test Authentication
 ```python 
 import ee
