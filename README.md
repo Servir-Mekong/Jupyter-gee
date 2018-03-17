@@ -56,7 +56,7 @@ Deactivate gee environment
 ```
 conda deactivate
 ```
-**7: Install Common Libraries That are used with GEE
+**7: Install Common Libraries That are used with GEE**
 ```
 conda install folium
 conda install bokeh
