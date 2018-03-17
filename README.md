@@ -30,7 +30,7 @@ python -c "from oauth2client import crypt"
 pip install earthengine-api
 ```
 **5: GEE Authentication**
-'''
+```
 python
 ```
 Test Authentication
