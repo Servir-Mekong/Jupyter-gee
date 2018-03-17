@@ -1,10 +1,10 @@
 # Jupyter-gee
-Install GEE Jupter Notebook
+Install GEE Jupyter Notebook
 
-**1: Download and install ANACONDA (Select 2.7 python and 64 bit for ML instalaion)**
+**1: Download and install ANACONDA (Select 2.7 python and 64 bit for ML installation)**
 https://www.anaconda.com/download/#windows
 
-//DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Instalation)
+//DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Installation)
 
 **2: Start Anaconda prompt with admin privileges**
 ```
@@ -20,17 +20,23 @@ conda install jupyter
 ```
 From GOOGLE EE PYTHON API SITE: 
 https://developers.google.com/earth-engine/python_install_manual
+
+
 ```
 pip install google-api-python-client
 python -c "from oauth2client import crypt"
 pip install earthengine-api
 python
 ```
+**4: GEE Authentication**
+Test Authentication
 ```python 
 import ee
 ee.Initialize()
 ```
-You might get an initialization error.  Exit from python using the ctrl-C command
+\\You might get an initialization error.  Exit from python using the ctrl-C command
+
+Setup Authentication
 ```
 earthengine authenticate
 ```
@@ -43,7 +49,7 @@ deactivate gee environment
 ```
 conda deactivate
 ```
-**4: Start Juypiter environment by running the command**
+**4: Start Jupyter environment by running the command**
 ```
 jupyter lab
 ```
