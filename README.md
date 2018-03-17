@@ -1,5 +1,5 @@
 # Jupyter-gee
-1: Download and install ANACONDA
+1: Download and install ANACONDA (64 bit for ML instalaion as well)
 https://www.anaconda.com/download/#windows
 *For windows users do not add to path
 
