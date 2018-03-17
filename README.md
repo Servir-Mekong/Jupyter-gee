@@ -6,7 +6,7 @@ https://www.anaconda.com/download/#windows
 
 //DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Installation)
 
-**2: Start Anaconda prompt with admin privileges**
+**2: Start "Anaconda Prompt" with admin privileges**
 ```
 conda config --add channels conda-forge
 ```
