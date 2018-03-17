@@ -20,9 +20,9 @@ conda create -n gee python=2.7
 conda activate gee
 conda install jupyter
 ```
-From GOOGLE EE PYTHON API SITE: 
-https://developers.google.com/earth-engine/python_install_manual
 
+**4: Install GEE API**
+[From GOOGLE EE PYTHON API SITE:] (https://developers.google.com/earth-engine/python_install_manual)
 
 ```
 pip install google-api-python-client
@@ -30,7 +30,7 @@ python -c "from oauth2client import crypt"
 pip install earthengine-api
 python
 ```
-**4: GEE Authentication**
+**5: GEE Authentication**
 
 Test Authentication
 ```python 
@@ -52,7 +52,7 @@ deactivate gee environment
 ```
 conda deactivate
 ```
-**4: Start Jupyter environment by running the command**
+**6: Start Jupyter environment by running the command**
 ```
 jupyter lab
 ```
