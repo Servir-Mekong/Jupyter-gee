@@ -7,8 +7,9 @@ https://www.anaconda.com/download/#windows
 
 **2: start Anaconda prompt in admin privilege**
 ```
-conda config --add channels conda-forge (THIS IS A PACKAGE MANAGEMENT)
+conda config --add channels conda-forge
 ```
+//(THIS IS A PACKAGE MANAGEMENT)
 
 **3: Create GEE environment**
 ```conda create -n gee python=2.7
