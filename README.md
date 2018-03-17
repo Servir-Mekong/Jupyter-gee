@@ -22,7 +22,8 @@ conda install jupyter
 ```
 
 **4: Install GEE API**
-[From GOOGLE EE PYTHON API SITE:] (https://developers.google.com/earth-engine/python_install_manual)
+
+[From GOOGLE EE PYTHON API SITE:](https://developers.google.com/earth-engine/python_install_manual)
 
 ```
 pip install google-api-python-client
