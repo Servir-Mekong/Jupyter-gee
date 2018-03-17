@@ -4,7 +4,7 @@ Install GEE Jupter Notebook
 **1: Download and install ANACONDA (Select 2.7 python and 64 bit for ML instalaion)**
 https://www.anaconda.com/download/#windows
 
-//For windows users do not add to path
+//DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Instalation)
 
 **2: start Anaconda prompt in admin privilege**
 ```
