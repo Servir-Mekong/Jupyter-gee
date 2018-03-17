@@ -40,7 +40,7 @@ ee.Initialize()
 ```
 \\You might get an initialization error.  Exit from python using the ctrl-C command
 
-Setup Authentication
+Setup Authentication (Only needed if you received an error above)
 ```
 earthengine authenticate
 ```
