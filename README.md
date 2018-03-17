@@ -1,8 +1,9 @@
 # Jupyter-gee
 Install GEE Jupter Notebook
 
-**1: Download and install ANACONDA (64 bit for ML instalaion as well)**
+**1: Download and install ANACONDA (Select 2.7 python and 64 bit for ML instalaion)**
 https://www.anaconda.com/download/#windows
+
 //For windows users do not add to path
 
 **2: start Anaconda prompt in admin privilege**
