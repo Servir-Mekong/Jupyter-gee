@@ -53,6 +53,7 @@ Exit python once you have entered your key using the "ctrl-c" command
 conda install folium
 conda install bokeh
 conda install pandas
+conda install matplotlib
 ```
 
 **7: Link a IPython kernel to the gee environment**
