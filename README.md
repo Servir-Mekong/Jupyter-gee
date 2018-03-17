@@ -57,6 +57,7 @@ Deactivate gee environment
 conda deactivate
 ```
 **7: Start Jupyter environment by running the command**
+
 change directory to your notebook folder location
 ```
 jupyter lab
