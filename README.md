@@ -9,7 +9,7 @@ NOTE: DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This 
 
 Start "Anaconda Prompt" with admin privileges
 ```
-conda config --add channels conda-forge
+conda config --prepend channels conda-forge
 ```
 //START HERE IF YOU HAVE ANACONDA INSTALLED
 
