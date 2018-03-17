@@ -6,11 +6,13 @@ https://www.anaconda.com/download/#windows
 
 //DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Installation)
 
-**2: Start "Anaconda Prompt" with admin privileges**
+**2: Add Community package management system**
+
+Start "Anaconda Prompt" with admin privileges
 ```
 conda config --add channels conda-forge
 ```
-//(THIS IS A PACKAGE MANAGEMENT SYSTEM)
+//START HERE IF YOU HAVE ANACONDA INSTALLED
 
 **3: Create GEE environment**
 ```
