@@ -6,14 +6,15 @@ https://www.anaconda.com/download/#windows
 
 //DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Instalation)
 
-**2: start Anaconda prompt in admin privilege**
+**2: Start Anaconda prompt with admin privileges**
 ```
 conda config --add channels conda-forge
 ```
-//(THIS IS A PACKAGE MANAGEMENT)
+//(THIS IS A PACKAGE MANAGEMENT SYSTEM)
 
 **3: Create GEE environment**
-```conda create -n gee python=2.7
+```
+conda create -n gee python=2.7
 conda activate gee
 conda install jupyter
 ```
