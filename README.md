@@ -45,15 +45,16 @@ Setup Authentication (Only needed if you received an error above)
 earthengine authenticate
 ```
 This will open a browser and prompt you to login to your google account once logged in, copy and paste the authorization code into your command prompt
-Link a IPython kernel to the gee environment
+
+**6: Link a IPython kernel to the gee environment**
 ```
 python -m ipykernel install --name gee --display-name "Python (gee)"
 ```
-deactivate gee environment
+Deactivate gee environment
 ```
 conda deactivate
 ```
-**6: Start Jupyter environment by running the command**
+**7: Start Jupyter environment by running the command**
 ```
 jupyter lab
 ```
