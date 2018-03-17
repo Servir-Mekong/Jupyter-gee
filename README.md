@@ -46,6 +46,8 @@ earthengine authenticate
 ```
 This will open a browser and prompt you to login to your google account once logged in, copy and paste the authorization code into your command prompt
 
+Exit pyton once you have entered your key using the "ctrl-c" command
+
 **6: Link a IPython kernel to the gee environment**
 ```
 python -m ipykernel install --name gee --display-name "Python (gee)"
