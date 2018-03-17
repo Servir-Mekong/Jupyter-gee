@@ -56,7 +56,14 @@ Deactivate gee environment
 ```
 conda deactivate
 ```
-**7: Start Jupyter environment by running the command**
+**7: Install Common Libraries That are used with GEE
+```
+conda install folium
+conda install bokeh
+conda install pandas
+```
+
+**8: Start Jupyter environment by running the command**
 
 change directory to your notebook folder location
 ```
