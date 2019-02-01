@@ -3,7 +3,7 @@ Install GEE Jupyter Notebook
 
 **1: Download and install ANACONDA [(Select 2.7 python and 64 bit for ML installation)](https://www.anaconda.com/download/#windows)**
 
-NOTE: DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Installation)
+NOTE: DO NOT CHECK ANYTHING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Installation)
 
 **2: Add Community package management system**
 
@@ -26,15 +26,15 @@ conda install jupyter
 
 ```
 pip install google-api-python-client
-python -c "from oauth2client import crypt"
 pip install earthengine-api
+pip install --update oauth2client
 ```
 **5: GEE Authentication**
 ```
 python
 ```
 Test Authentication
-```python 
+```python
 import ee
 ee.Initialize()
 ```
