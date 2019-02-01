@@ -48,7 +48,15 @@ This will open a browser and prompt you to login to your google account once log
 
 Exit python once you have entered your key using the "ctrl-c" command
 
-**6: Link a IPython kernel to the gee environment**
+**6: Install Common Libraries That are used with GEE**
+```
+conda install folium
+conda install bokeh
+conda install pandas
+conda install matplotlib
+```
+
+**7: Link a IPython kernel to the gee environment**
 ```
 python -m ipykernel install --name gee --display-name "Python (gee)"
 ```
@@ -56,7 +64,8 @@ Deactivate gee environment
 ```
 conda deactivate
 ```
-**7: Start Jupyter environment by running the command**
+
+**8: Start Jupyter environment by running the command**
 
 change directory to your notebook folder location
 ```
